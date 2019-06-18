@@ -1,18 +1,24 @@
 import React from "react";
 import List from "./List";
 import Form from "./Form";
+import Post from "./Post";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const App = () => (
-    <Container>
-        <Row style={{marginTop: '2rem'}}>
-            <Col xs={5} sm={4} md={7}>
+    <Container style={{marginTop: '2rem', marginBottom: '2rem'}}>
+        <Row>
+            <Col xs={12} sm={12} md={7}>
                 <List />
             </Col>
-            <Col xs={4} sm={3} md={5} >
+            <Col xs={12} sm={12} md={5}>
                 <Form/>
+            </Col>
+        </Row>
+        <Row>
+            <Col xs={12} sm={12} md={12} style={{marginTop: '2rem'}}>
+                <Post/>
             </Col>
         </Row>
     </Container>

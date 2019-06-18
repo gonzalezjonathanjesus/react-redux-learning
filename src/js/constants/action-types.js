@@ -1,2 +1,8 @@
 export const ADD_ARTICLE = "ADD_ARTICLE";
 export const FOUND_BAD_WORD = "FOUND_BAD_WORD";
+export const DATA_LOADED = "DATA_LOADED";
+
+export const FETCH_DATA = "FETCH_DATA";
+export const FETCHING_DATA = "FETCHING_DATA";
+export const FETCH_DATA_SUCCESS = "FETCH_DATA_SUCCESS";
+export const FETCH_DATA_ERROR = "FETCH_DATA_ERROR";
